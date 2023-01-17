@@ -23,6 +23,8 @@ function onSubmitForm(e) {
 
 
 
+
+
 function createPromise(position, delay) {
   const obj = { position, delay };
   const shouldResolve = Math.random() > 0.3;
